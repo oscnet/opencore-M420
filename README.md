@@ -11,3 +11,8 @@
 * 硬盘	500GB SATA接口 SSD  256GB M.2接口 NVMe协议 SSD
 
 * openCore 版本： 0.6.2
+
+
+### 注意：
+
+1. 蓝牙驱动需要 USBInjectAll.kext
