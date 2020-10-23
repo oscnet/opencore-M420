@@ -21,14 +21,11 @@
 
 1. 蓝牙驱动需要 USBInjectAll.kext，但 usb 定制后就可以不用了。
 
-### 解锁 CFG Lock 
+2. 解锁 CFG Lock 
 
 参考 https://github.com/cheneyveron/hackintosh-clover-z390-aorus-pro-wifi-9700k-rx580/blob/master/README.md
-```
-CFG Lock, VarStoreInfo (VarOffset/VarName): 0x656, VarStore: 0x1, QuestionId: 0xAED, Size: 1, Min: 0x0, Max 0x1, Step: 0x0 {05 91 C1 03 C2 03 ED 0A 01 00 56 06 10 10 00 01 00}		
-```
 
-CFG Lock 地址为：0x656
+得到本机 CFG Lock 地址为：0x656
 
-### 加入 EFI.CFG 目录用于解锁 CFG Lock，使用这个 EFI 启动后，输入 `setup_var 0x656 0x00` 即可解锁。
+加入 EFI.CFG 目录用于解锁 CFG Lock，使用这个 EFI 启动后，输入 `setup_var 0x656 0x00` 即可解锁。
 
