@@ -13,9 +13,11 @@
 * 硬盘	500GB SATA接口 SSD  256GB M.2接口 NVMe协议 SSD
 * DDR4 SDRAM  外部频率 1333 MHz (DDR)
 * Realtek RTL8168/8111 PCI-E Gigabit Ethernet Adapter
-* openCore 版本： 0.6.2
+* openCore 版本： 0.6.4
 
 ## 更新记录
+
+* 2020-12-10 更新到 openCore 0.6.4
 
 * 2020-11-4  更新到 openCore 0.6.3 
 
@@ -25,7 +27,7 @@
 
 1. 蓝牙驱动需要 USBInjectAll.kext，但 usb 定制后就可以不用了。
 
-2. RealtekRTL8111 V2.3.0 需要手工设置网卡为 100baseTX,并且在重启后一分钟后才能上网。
+2. RealtekRTL8111 V2.3.0 需要手工设置网卡为 100baseTX。
 
 3. 解锁 CFG Lock 
 
@@ -35,3 +37,7 @@
 
 加入 EFI.CFG 目录用于解锁 CFG Lock，使用这个 EFI 启动后，输入 `setup_var 0x656 0x00` 即可解锁。
 
+### 参考文档
+
+* https://dortania.github.io/OpenCore-Install-Guide/
+* https://dortania.github.io/OpenCore-Post-Install/universal/update.html
