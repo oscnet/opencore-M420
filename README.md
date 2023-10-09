@@ -13,9 +13,11 @@
 * 硬盘	500GB SATA接口 SSD  256GB M.2接口 NVMe协议 SSD
 * DDR4 SDRAM  外部频率 1333 MHz (DDR)
 * Realtek RTL8168/8111 PCI-E Gigabit Ethernet Adapter
-* openCore 版本： 0.7.3
+* openCore 版本： 0.9.5
 
 ## 更新记录
+
+* 2023-10-9  更新到 openCore 0.9.5
 
 * 2021-11-3  更新到 openCore 0.7.5
 
