@@ -28,6 +28,12 @@
 * 2020-11-4  更新到 openCore 0.6.3 
 
 
+## git 
+
+```
+git archive --format=zip --output=EFI.zip HEAD
+```
+
 
 ### 注意：
 
